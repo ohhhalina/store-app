@@ -27,7 +27,7 @@ const About = () => {
             </p>
             <div className="about-buttons-container">
                 <button className="secondary-button">Learn more</button>
-                <button className="watch-wideo-button">
+                <button className="watch-video-button">
                     {" "}
                     <BsFillPlayCircleFill /> Watch Video
                 </button>
