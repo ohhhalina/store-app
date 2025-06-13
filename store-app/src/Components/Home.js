@@ -16,10 +16,10 @@ const Home = () => {
         </div>
         <div className="home-text-section">
           <h1 className="primary-heading">
-            Your Favourite Asian Food Delivered Hot & Fresh
+            Authentic Asian noodles delivery and pickup
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping & marinating, so you can cook a fresh food.
+            Asian noodles are a traditional dish popular in the cuisines of China, Japan, Korea and other East Asian countries.
           </p>
           <button className="secondary-button" onClick={() => setIsModalOpen(true)}>
             Order Now <FiArrowRight />
@@ -42,7 +42,7 @@ const Home = () => {
                       src={BannerImage}
                       alt=""
                       initial={{ x: 200, opacity: 0 }}
-                      animate={{ x: 0, opacity: 1 }}
+                      animate={{ x: 1, opacity: 1 }}
                       transition={{ duration: 1, ease: "easeOut"}}
                       />
         </div>

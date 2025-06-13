@@ -17,10 +17,12 @@ img {
 body {
   max-width: 100%;
   overflow-x: hidden;
+  line-height: 1.5;
 }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #EBE2B9;
+  font-size: 16px;
 }
 
 nav {
@@ -41,7 +43,8 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: #D6292B;
+  color: #EBE2B7;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -97,7 +100,7 @@ nav {
 }
 .secondary-button {
   padding: 1rem 2.5rem;
-  background-color: #fe9e0d;
+  background-color: #D6292B;
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -115,7 +118,7 @@ nav {
   font-size: 1.5rem;
 }
 .secondary-button:hover {
-  background-color: #e48f0f;
+  background-color: #D6292B;
 }
 .modal-overlay {
   position: fixed;
@@ -157,7 +160,7 @@ nav {
 }
 .about-background-image-container {
   position: absolute;
-  left: -150px;
+  left: -200px;
   z-index: -2;
 }
 .about-section-image-container {
@@ -172,7 +175,7 @@ nav {
 }
 .primary-subheading {
   font-weight: 700;
-  color: #fe9e0d;
+  color: #D6292B;
   font-size: 1.15rem;
 }
 .about-buttons-container {
@@ -286,7 +289,7 @@ nav {
 .testimonials-stars-container svg {
   margin: 0rem 0.25rem;
   font-size: 1.5rem;
-  color: #fe9e0d;
+  color: #03304D;
 }
 .testimonial-section-bottom h2 {
   margin-top: 1.5rem;

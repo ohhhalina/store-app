@@ -31,10 +31,10 @@ const About = () => {
                 Food Is An Important Part Of A Balanced Diet
             </h1>
             <p className="primary-text">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda error minima suscipit voluptate harum quia esse incidunt accusantium, dicta rerum, accusamus amet, ipsam necessitatibus omnis natus ab explicabo blanditiis. Earum?
+                Noodles are prepared in various ways – boiled, fried, stewed, steamed, added to soups. They use ready-made noodles in hot and cold form. Noodle dishes can taste spicy, sweet, salty, or sour.
             </p>
             <p className="primary-text">
-                Non tincidunt magna non et elit. Dolor turpis molestie dui magnis facilisis at fringilla quam.
+                By the way, the term "kuksu" refers not only to noodles, but also to a dish of the same name. This is a cold soup with boiled noodles, generously flavored with meat, egg and vegetable strips, coriander, garlic and seasoned with soy sauce, vinegar and sesame oil.
             </p>
             <div className="about-buttons-container">
                 <button className="secondary-button">Learn more</button>
