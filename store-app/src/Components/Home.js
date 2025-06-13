@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 import BannerBackground from "../Assets/home-banner-background.png"
 import BannerImage from "../Assets/home-banner-image.png"
 import { FiArrowRight } from "react-icons/fi"
+import { motion } from 'framer-motion'
 
 const Home = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
   return (
     <div className='home-container'>
       <Navbar/> 
@@ -19,12 +21,30 @@ const Home = () => {
           <p className="primary-text">
             Healthy switcher chefs do all the prep work, like peeding, chopping & marinating, so you can cook a fresh food.
           </p>
-          <button className="secondary-button">
+          <button className="secondary-button" onClick={() => setIsModalOpen(true)}>
             Order Now <FiArrowRight />
+            {isModalOpen && (
+              <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
+                <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                  <h3>Modal open</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusantium nemo quos consequuntur quam fugiat aperiam non minus ratione nam harum quibusdam maiores ullam eum sed, reprehenderit, provident cum itaque?</p>
+                  <button className="secondary-button" onClick={() => setIsModalOpen(false)}>
+                    Закрыть
+                  </button>
+                </div>
+              </div>
+            )}
           </button>
         </div>
         <div className="home-image-container">
-          <img src={BannerImage} alt="" />
+          {/* <img src={BannerImage} alt="" /> */}
+          <motion.img
+                      src={BannerImage}
+                      alt=""
+                      initial={{ x: 200, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 1, ease: "easeOut"}}
+                      />
         </div>
       </div>
     </div>

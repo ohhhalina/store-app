@@ -2,6 +2,9 @@ import React from 'react'
 import AboutBackground from "../Assets/about-background.png"
 import AboutBackgroundImage from "../Assets/about-background-image.png"
 import { BsFillPlayCircleFill } from 'react-icons/bs'
+import { duration } from '@mui/material/styles'
+import { motion } from "framer-motion";
+
 
 const About = () => {
   return (
@@ -10,7 +13,15 @@ const About = () => {
             <img src={AboutBackground} alt="" />
         </div>
         <div className="about-section-image-container">
-            <img src={AboutBackgroundImage} alt="" />
+            {/* <img src={AboutBackgroundImage} alt="" /> */}
+            <motion.img 
+            img src={AboutBackgroundImage}
+            alt="plate"
+            initial={{ x: -200, opacity: 0, rotate:-90 }}
+            whileInView={{ x:0, opacity: 1, rotate: 0}}
+            transition={{ duration: 1, ease: "easeOut"}}
+            viewport={{once: true}}
+            />
         </div>
         <div className="about-section-text-container">
             <p className="primary-subheading">
