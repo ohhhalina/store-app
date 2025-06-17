@@ -25,22 +25,22 @@ const About = () => {
         </div>
         <div className="about-section-text-container">
             <p className="primary-subheading">
-                О нас
+                About
             </p>
             <h1 className="primary-heading">
-                Питание — важная часть сбалансированной жизни
+                Food Is An Important Part Of A Balanced Diet
             </h1>
             <p className="primary-text">
-                Наши блюда готовятся из рисовой, пшеничной или гречневой лапши, с добавлением овощей, мяса, морепродуктов и ароматного бульона.
+                Noodles are prepared in various ways – boiled, fried, stewed, steamed, added to soups. They use ready-made noodles in hot and cold form. Noodle dishes can taste spicy, sweet, salty, or sour.
             </p>
             <p className="primary-text">
-                Благодаря разнообразию вкусов и способов приготовления, азиатская лапша завоевала любовь по всему миру.
+                By the way, the term "kuksu" refers not only to noodles, but also to a dish of the same name. This is a cold soup with boiled noodles, generously flavored with meat, egg and vegetable strips, coriander, garlic and seasoned with soy sauce, vinegar and sesame oil.
             </p>
             <div className="about-buttons-container">
                 <button className="secondary-button">👉 Узнать больше</button>
                 <button className="watch-video-button">
                     {" "}
-                    <BsFillPlayCircleFill /> Смотреть видео
+                    <BsFillPlayCircleFill /> Watch Video
                 </button>
             </div>
         </div>

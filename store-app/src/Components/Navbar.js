@@ -48,10 +48,10 @@ const menuOptions = [
             <img src={Logo} alt="" />
         </div>
         <div className="navbar-links-container">
-            <a href='/Home'>Главная</a>
-            <a href='/About'>О нас</a>
-            <a href='/Testimonials'>Отзывы</a>
-            <a href='/Contact'>Контакты</a>
+            <a href='/Home'>Home</a>
+            <a href='/About'>About</a>
+            <a href='/Testimonials'>Testimonals</a>
+            <a href='/Contact'>Contact</a>
             <a href=''>
                 <BsCart2 className='navbar-cart-icon' />
             </a>

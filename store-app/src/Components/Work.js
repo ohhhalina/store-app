@@ -8,20 +8,23 @@ const Work = () => {
         {
             Image: PickMeals,
             title: "Выберите блюда",
-            text: "Откройте меню и выберите понравившиеся позиции из нашего ассортимента лапши."
+            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
         },
         {
             Image: ChooseMeals,
             title: "Как часто вы заказываете?",
-            text: "Разовый заказ или подписка? Вы решаете, как часто получать любимую лапшу."
+            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
         },
         {
             Image: DeliveryMeals,
             title: "Быстрая доставка",
-            text: "Доставим горячее блюдо прямо к вашему порогу — быстро, безопасно, удобно."
+            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
         }
     ];
     return <div className='work-section-wrapper'>
+        <p className="primary-subheading">
+                About
+        </p>
       <div className="work-section-top">
         <p className="primary-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, ipsam voluptate minima excepturi fugiat quas obcaecati dolor hic molestiae nostrum aliquam sequi inventore necessitatibus quisquam saepe aliquid adipisci aspernatur quod.

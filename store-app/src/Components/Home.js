@@ -22,14 +22,14 @@ const Home = () => {
             Asian noodles are a traditional dish popular in the cuisines of China, Japan, Korea and other East Asian countries.
           </p>
           <button className="secondary-button" onClick={() => setIsModalOpen(true)}>
-            Order Now <FiArrowRight />
+            👉 Order Now <FiArrowRight />
             {isModalOpen && (
               <div className="modal-overlay" onClick={() => setIsModalOpen(false)}>
                 <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                   <h3>Modal open</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis accusantium nemo quos consequuntur quam fugiat aperiam non minus ratione nam harum quibusdam maiores ullam eum sed, reprehenderit, provident cum itaque?</p>
                   <button className="secondary-button" onClick={() => setIsModalOpen(false)}>
-                    Закрыть
+                    Close
                   </button>
                 </div>
               </div>
