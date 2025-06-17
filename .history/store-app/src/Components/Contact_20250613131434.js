@@ -22,11 +22,11 @@ const Contact = () => {
   
   return (
     <div className="contact-page-wrapper">
-        <h1 className="primary-heading">Остались вопросы? Мы готовы помочь!</h1>
-        <h1 className="primary-heading">Оставьте свой email — и мы свяжемся с вами в ближайшее время:</h1>
+        <h1 className="primary-heading">Have Question In Mind?</h1>
+        <h1 className="primary-heading">Let Us Help You</h1>
         <form ref={form} onSubmit={sendEmail} className="contact-form-container">
             <input type="email" name="user_email" placeholder='yourmail@gmail.com' required />
-            <button type="submit" className="secondary-button">Отправлено!</button>
+            <button type="submit" className="secondary-button">Submit</button>
         </form>
         </div>
   )

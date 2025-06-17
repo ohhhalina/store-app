@@ -7,18 +7,18 @@ const Work = () => {
     const workInfoData = [
         {
             Image: PickMeals,
-            title: "PickMeals",
-            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
+            title: "Выберите блюда",
+            text: "Откройте меню и выберите понравившиеся позиции из нашего ассортимента лапши."
         },
         {
             Image: ChooseMeals,
-            title: "Choose How Often",
-            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
+            title: "Как часто вы заказываете?",
+            text: "Разовый заказ или подписка? Вы решаете, как часто получать любимую лапшу."
         },
         {
             Image: DeliveryMeals,
-            title: "Fast Deliveries",
-            text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum."
+            title: "Быстрая доставка",
+            text: "Доставим горячее блюдо прямо к вашему порогу — быстро, безопасно, удобно."
         }
     ];
     return <div className='work-section-wrapper'>
